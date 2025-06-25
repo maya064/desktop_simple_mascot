@@ -1,0 +1,18 @@
+/* 画面設定 */
+html, body {
+    margin:  0;
+    padding: 0;
+    width:   100vw;
+    height:  100vh;
+}
+/* マスコット設定 */
+#mascot {
+    position: absolute;
+    bottom: 0;
+    left:   0;
+    width:  100px;
+    height: 100px;
+    background-image: url('assets/pachirisu.gif');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
